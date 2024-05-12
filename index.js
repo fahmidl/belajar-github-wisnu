@@ -6,7 +6,11 @@ const mysql = require('mysql2');
 const cors = require('cors'); // Import cors library
 
 const app = express();
+<<<<<<< HEAD
 const port = 3014;
+=======
+const port = 3020;
+>>>>>>> update
 
 app.use(cors()); // Use cors middleware
 app.use(bodyParser.json());
